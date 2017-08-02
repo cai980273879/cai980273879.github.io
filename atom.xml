@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caiyuyuan.top/"/>
-  <updated>2017-08-02T08:10:34.346Z</updated>
+  <updated>2017-08-02T08:18:31.354Z</updated>
   <id>http://caiyuyuan.top/</id>
   
   <author>
@@ -19,10 +19,11 @@
     <title></title>
     <link href="http://caiyuyuan.top/2017/08/02/%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BAjenkins/"/>
     <id>http://caiyuyuan.top/2017/08/02/使用docker搭建jenkins/</id>
-    <published>2017-08-02T08:10:34.347Z</published>
-    <updated>2017-08-02T08:10:34.346Z</updated>
+    <published>2017-08-02T08:18:31.357Z</published>
+    <updated>2017-08-02T08:18:31.354Z</updated>
     
-    <content type="html"><![CDATA[<p>#<a href="https://jenkins.io/index.html" target="_blank" rel="external">Jenkins</a>是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考<a href="https://en.wikipedia.org/wiki/Jenkins_(software" target="_blank" rel="external">维基</a>介绍.<br><br></p>
+    <content type="html"><![CDATA[<p>#使用docker部署Jenkins</p>
+<p><a href="https://jenkins.io/index.html" target="_blank" rel="external">Jenkins</a>是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考<a href="https://en.wikipedia.org/wiki/Jenkins_(software" target="_blank" rel="external">维基</a>介绍.<br><br></p>
 <p>###DockerHub上有docker官方jenkins镜像： <a href="https://registry.hub.docker.com/_/jenkins/" target="_blank" rel="external">https://registry.hub.docker.com/_/jenkins/</a><br>同时github上有其源码： <a href="https://github.com/jenkinsci/docker" target="_blank" rel="external">https://github.com/jenkinsci/docker</a><br>官方jenkins镜像中所使用的jenkins是Jenkins的LTS（Long Term Support）发布版本。</p>
 <p></p><h3>Installation</h3><br>$~  mkdir  /var/jenkins_home<br>$~  docker run –name myjenkins -p 8080:8080 -v /var/jenkins_home jenkins<p></p>
 <p></p><h6>或者你也可以选择自动构建</h6><br>$~  git clone <a href="https://github.com/jenkinsci/docker.git" target="_blank" rel="external">https://github.com/jenkinsci/docker.git</a><br>$~  cd docker<br>$~  docker build -t  myjenkins/jenkins  .<br>镜像构建成功后,运行容器<br>docker run –name donhui_jenkins -p 8080:8080 -v /var/jenkins_home  myjenkins/jenkins<p></p>
@@ -38,7 +39,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;#&lt;a href=&quot;https://jenkins.io/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jenkins&lt;/a&gt;是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源
+      &lt;p&gt;#使用docker部署Jenkins&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jenkins.io/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jenkins&lt;/a&gt;是一个用Java编写的开源的持续集成工具，提供了软件开发的
     
     </summary>
     

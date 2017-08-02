@@ -8,12 +8,12 @@
   <link rel="dns-prefetch" href="http://caiyuyuan.top">
   <title>Taro balls&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#Jenkins是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考维基介绍. ###DockerHub上有docker官方jenkins镜像： https://registry.hub.docker.com/_/jenkins/同时github上有其源码： https://gi">
+  <meta name="description" content="#使用docker部署Jenkins Jenkins是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考维基介绍. ###DockerHub上有docker官方jenkins镜像： https://registry.hub.docker.com/_/jenkins/同时githu">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Taro balls&#39;s Blog">
 <meta property="og:url" content="http://caiyuyuan.top/2017/08/02/使用docker搭建jenkins/index.html">
 <meta property="og:site_name" content="Taro balls&#39;s Blog">
-<meta property="og:description" content="#Jenkins是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考维基介绍. ###DockerHub上有docker官方jenkins镜像： https://registry.hub.docker.com/_/jenkins/同时github上有其源码： https://gi">
+<meta property="og:description" content="#使用docker部署Jenkins Jenkins是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考维基介绍. ###DockerHub上有docker官方jenkins镜像： https://registry.hub.docker.com/_/jenkins/同时githu">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5765738-eca533af6bf091a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5765738-b032e6a375b1a88c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
@@ -23,10 +23,10 @@
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5765738-be6de4fa7eba76ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5765738-c576507e89db6f1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5765738-2b16678049462efe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-08-02T08:10:34.346Z">
+<meta property="og:updated_time" content="2017-08-02T08:18:31.354Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Taro balls&#39;s Blog">
-<meta name="twitter:description" content="#Jenkins是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考维基介绍. ###DockerHub上有docker官方jenkins镜像： https://registry.hub.docker.com/_/jenkins/同时github上有其源码： https://gi">
+<meta name="twitter:description" content="#使用docker部署Jenkins Jenkins是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考维基介绍. ###DockerHub上有docker官方jenkins镜像： https://registry.hub.docker.com/_/jenkins/同时githu">
 <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/5765738-eca533af6bf091a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="Taro balls&#39;s Blog" type="application/atom+xml">
@@ -172,7 +172,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#<a href="https://jenkins.io/index.html" target="_blank" rel="external">Jenkins</a>是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考<a href="https://en.wikipedia.org/wiki/Jenkins_(software" target="_blank" rel="external">维基</a>介绍.<br><br></p>
+        <p>#使用docker部署Jenkins</p>
+<p><a href="https://jenkins.io/index.html" target="_blank" rel="external">Jenkins</a>是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考<a href="https://en.wikipedia.org/wiki/Jenkins_(software" target="_blank" rel="external">维基</a>介绍.<br><br></p>
 <p>###DockerHub上有docker官方jenkins镜像： <a href="https://registry.hub.docker.com/_/jenkins/" target="_blank" rel="external">https://registry.hub.docker.com/_/jenkins/</a><br>同时github上有其源码： <a href="https://github.com/jenkinsci/docker" target="_blank" rel="external">https://github.com/jenkinsci/docker</a><br>官方jenkins镜像中所使用的jenkins是Jenkins的LTS（Long Term Support）发布版本。</p>
 <p></p><h3>Installation</h3><br>$~  mkdir  /var/jenkins_home<br>$~  docker run –name myjenkins -p 8080:8080 -v /var/jenkins_home jenkins<p></p>
 <p></p><h6>或者你也可以选择自动构建</h6><br>$~  git clone <a href="https://github.com/jenkinsci/docker.git" target="_blank" rel="external">https://github.com/jenkinsci/docker.git</a><br>$~  cd docker<br>$~  docker build -t  myjenkins/jenkins  .<br>镜像构建成功后,运行容器<br>docker run –name donhui_jenkins -p 8080:8080 -v /var/jenkins_home  myjenkins/jenkins<p></p>
