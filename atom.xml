@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caiyuyuan.top/"/>
-  <updated>2017-08-05T14:10:00.987Z</updated>
+  <updated>2017-08-05T14:54:42.906Z</updated>
   <id>http://caiyuyuan.top/</id>
   
   <author>
@@ -16,80 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello docking</title>
-    <link href="http://caiyuyuan.top/2017/08/05/Hello-docking/"/>
-    <id>http://caiyuyuan.top/2017/08/05/Hello-docking/</id>
-    <published>2017-08-05T14:09:08.000Z</published>
-    <updated>2017-08-05T14:10:00.987Z</updated>
-    
-    <content type="html"><![CDATA[<p>Just a Test.</p>
-]]></content>
+    <title>index</title>
+    <link href="http://caiyuyuan.top/2017/08/05/index/"/>
+    <id>http://caiyuyuan.top/2017/08/05/index/</id>
+    <published>2017-08-05T14:54:42.000Z</published>
+    <updated>2017-08-05T14:54:42.906Z</updated>
     
     <summary type="html">
-    
-      &lt;p&gt;Just a Test.&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://caiyuyuan.top/2017/08/02/%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BAjenkins/"/>
-    <id>http://caiyuyuan.top/2017/08/02/使用docker搭建jenkins/</id>
-    <published>2017-08-02T13:00:28.255Z</published>
-    <updated>2017-08-02T13:00:28.253Z</updated>
-    
-    <content type="html"><![CDATA[<h1>使用docker部署Jenkins</h1>
-
-<p><a href="https://jenkins.io/index.html" target="_blank" rel="external">Jenkins</a>是一个用Java编写的开源的持续集成工具，提供了软件开发的持续集成服务，可监控并触发持续重复的工作，具有开源，支持多平台和插件扩展，安装简单，界面化管理等特点。更多介绍参考<a href="https://en.wikipedia.org/wiki/Jenkins_(software" target="_blank" rel="external">维基</a>介绍.<br><br></p>
-<p>###DockerHub上有docker官方jenkins镜像： <a href="https://registry.hub.docker.com/_/jenkins/" target="_blank" rel="external">https://registry.hub.docker.com/_/jenkins/</a><br>同时github上有其源码： <a href="https://github.com/jenkinsci/docker" target="_blank" rel="external">https://github.com/jenkinsci/docker</a><br>官方jenkins镜像中所使用的jenkins是Jenkins的LTS（Long Term Support）发布版本。</p>
-<p></p><h3>Installation</h3><br>$~  mkdir  /var/jenkins_home<br>$~  docker run –name myjenkins -p 8080:8080 -v /var/jenkins_home jenkins<p></p>
-<p></p><h6>或者你也可以选择自动构建</h6><br>$~  git clone <a href="https://github.com/jenkinsci/docker.git" target="_blank" rel="external">https://github.com/jenkinsci/docker.git</a><br>$~  cd docker<br>$~  docker build -t  myjenkins/jenkins  .<br>镜像构建成功后,运行容器<br>docker run –name donhui_jenkins -p 8080:8080 -v /var/jenkins_home  myjenkins/jenkins<p></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-eca533af6bf091a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="初始运行容器"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-b032e6a375b1a88c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="需要使用密码初始化"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-ae63ac591525f484.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="在容器交互中看到 初始化时候的密码并复制输入"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-20cf2e1e4a9d50dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="插件安装页面：安装推荐插件或者自定义安装"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-6235d5180ee13bea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="选择推荐安装，此时正在安装插件"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-be6de4fa7eba76ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安装完成"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-c576507e89db6f1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="创建admin用户"></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/5765738-2b16678049462efe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Jenkins首页"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1&gt;使用docker部署Jenkins&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://jenkins.io/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jenkins&lt;/a&gt;是一个用Java编写的开源的持续集成工具，提供了软件开
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://caiyuyuan.top/2017/08/01/hello-world/"/>
-    <id>http://caiyuyuan.top/2017/08/01/hello-world/</id>
-    <published>2017-08-01T14:35:05.957Z</published>
-    <updated>2017-08-01T14:35:05.957Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
     </summary>
     

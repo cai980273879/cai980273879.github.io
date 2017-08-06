@@ -2,37 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://caiyuyuan.top/2017/08/05/Hello-docking/</loc>
+    <loc>http://caiyuyuan.top/2017/08/05/index/</loc>
     
-    <lastmod>2017-08-05T14:10:00.987Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://caiyuyuan.top/categories/hacker/index.html</loc>
-    
-    <lastmod>2017-08-04T08:43:15.242Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://caiyuyuan.top/categories/life/index.html</loc>
-    
-    <lastmod>2017-08-04T08:40:39.264Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://caiyuyuan.top/categories/docker/index.html</loc>
-    
-    <lastmod>2017-08-04T08:38:16.424Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://caiyuyuan.top/categories/ops/index.html</loc>
-    
-    <lastmod>2017-08-04T08:33:49.304Z</lastmod>
+    <lastmod>2017-08-05T14:54:42.906Z</lastmod>
     
   </url>
   
@@ -40,20 +12,6 @@
     <loc>http://caiyuyuan.top/404.html</loc>
     
     <lastmod>2017-08-03T10:33:40.677Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://caiyuyuan.top/2017/08/02/%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BAjenkins/</loc>
-    
-    <lastmod>2017-08-02T13:00:28.253Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://caiyuyuan.top/2017/08/01/hello-world/</loc>
-    
-    <lastmod>2017-08-01T14:35:05.957Z</lastmod>
     
   </url>
   
